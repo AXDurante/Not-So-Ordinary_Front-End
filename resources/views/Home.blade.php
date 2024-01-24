@@ -17,11 +17,18 @@
         width: calc(33.33% - 20px); /* 33.33% width for each card with a 20px gap */
         height: 60%;
         background-color: #fff;
-        border-radius: 10px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         overflow: hidden;
         margin-bottom: 20px;
+        margin-top: 5%;
+        transition: transform .2s;
     }
+            .card:hover {
+            -ms-transform: scale(1.1); /* IE 9 */
+            -webkit-transform: scale(1.1); /* Safari 3-8 */
+            transform: scale(1.1); 
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        }
 
     .card img {
         width: 100%;
@@ -33,6 +40,7 @@
 
         .card-content {
             padding: none;
+            text-align  : center;
         }
 
         .card h2 {
@@ -83,7 +91,7 @@
     </div>
 
     <div class="card">
-        <img src="shirt3.jpg" alt="Shirt Image 3">
+        <img src="images/SampleShirt2.png" alt="Shirt Image 1">
         <div class="card-content">
             <h2>Stylish Shirt 3</h2>
             <p>A comfortable and fashionable shirt for any occasion. Made with high-quality fabric to ensure a perfect fit.</p>
