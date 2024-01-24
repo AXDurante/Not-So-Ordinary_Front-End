@@ -24,3 +24,11 @@ Route::get('/Collections', function () {
 Route::get('/Login', function () {
     return view('Login');
 });
+
+Route::get('/Signup2', function () {
+    return view('Signup2');
+});
+
+Route::get('/Signup', function () {
+    return view('Signup');
+});

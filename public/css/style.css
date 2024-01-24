@@ -1,0 +1,411 @@
+body {
+    margin-left: 0;
+    margin-right: 0;
+}
+/*Login*/
+.login-body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+.half {
+    flex: 1;
+    overflow: auto;
+}
+
+.login-imageHolder {
+    background: url("/images/login.png") center/cover no-repeat;
+    position: relative;
+}
+
+.divider {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 1px;
+    background-color: #000000;
+    transform: translateX(-50%);
+}
+
+/*for the forms part*/
+.login-credentialsHolder {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+    width: 60%;
+    margin: auto;
+}
+
+.title-bar {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.title-bar h2 {
+    margin: 0;
+    font-size: 32px;
+    /* font-family: Inter; */
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* Full-width inputs */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 2px solid #000;
+    background: rgba(225, 225, 225, 0);
+}
+
+.container label {
+    color: #212529;
+    text-align: center;
+    /* font-family: Inter; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.container input::placeholder {
+    color: #999;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Set a style for all buttons */
+.buttonHolder {
+    text-align: center;
+}
+
+button {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    border-radius: 18px;
+    margin-top: 30px;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* The "Forgot password" text */
+/* span.psw {
+    float: right;
+    padding-top: 16px;
+  } */
+
+.toSignUp {
+    text-align: center;
+    /* font-family: Inter; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.forgotPassword {
+    text-align: center;
+    /* font-family: Montserrat; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.forgotPassword a {
+    color: black;
+    text-decoration: underline;
+}
+/*SignUp */
+.signup-body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+.half {
+    flex: 1;
+    overflow: auto;
+}
+
+.login-imageHolder {
+    background: url("/images/login.png") center/cover no-repeat;
+    position: relative;
+}
+
+.divider {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 1px;
+    background-color: #000000;
+    transform: translateX(-50%);
+}
+
+/*for the forms part*/
+.login-credentialsHolder {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+    width: 60%;
+    margin: auto;
+}
+
+.title-bar {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.title-bar h2 {
+    margin: 0;
+    font-size: 32px;
+    /* font-family: Inter; */
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* Full-width inputs */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 8px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 2px solid #000;
+    background: rgba(225, 225, 225, 0);
+}
+
+.container label {
+    color: #212529;
+    text-align: center;
+    /* font-family: Inter; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.container input::placeholder {
+    color: #999;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Set a style for all buttons */
+.buttonHolder {
+    text-align: center;
+}
+
+.buttonHolderNextPage {
+    text-align: right;
+}
+
+button {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    border-radius: 18px;
+    margin-top: 30px;
+}
+
+.btnNextPage {
+    margin-top: 15px;
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    border-radius: 18px;
+}
+
+.btnCreateAcc {
+    margin-top: 30px;
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 70%;
+    border-radius: 14px;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* The "Forgot password" text */
+/* span.psw {
+    float: right;
+    padding-top: 16px;
+  } */
+
+.toSignUp {
+    text-align: center;
+    /* font-family: Inter; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.forgotPassword {
+    text-align: center;
+    /* font-family: Montserrat; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.forgotPassword a {
+    color: black;
+    text-decoration: underline;
+}
+
+.line {
+    margin-top: 30px;
+    border-top: 1px solid #000;
+}
+
+/*Navbar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center; /* Center the text within the ul */
+}
+.nav {
+    background-color: #333;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+li {
+    display: inline-block; /* Display li elements in a line */
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04aa6d;
+}
+
+/* Float the first three links to the left */
+li:nth-child(-n + 3) {
+    float: left;
+}
+.logo {
+    padding-right: 20%;
+}
+
+/* Home Page */
+.home-welcome img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/*Cards*/
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    width: calc(33.33% - 20px); /* 33.33% width for each card with a 20px gap */
+    height: 60%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 20px;
+    margin-top: 5%;
+    transition: transform 0.2s;
+}
+.card:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+    width: 100%;
+
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-content {
+    padding: none;
+    text-align: center;
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #555;
+    line-height: 1.4;
+}

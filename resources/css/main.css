@@ -1,0 +1,100 @@
+body {
+    margin-left: 0;
+    margin-right: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center; /* Center the text within the ul */
+}
+.nav {
+    background-color: #333;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+li {
+    display: inline-block; /* Display li elements in a line */
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04aa6d;
+}
+
+/* Float the first three links to the left */
+li:nth-child(-n + 3) {
+    float: left;
+}
+.logo {
+    padding-right: 20%;
+}
+
+/* Home Page */
+.home-welcome img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/*Cards*/
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    width: calc(33.33% - 20px); /* 33.33% width for each card with a 20px gap */
+    height: 60%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 20px;
+    margin-top: 5%;
+    transition: transform 0.2s;
+}
+.card:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+    width: 100%;
+
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-content {
+    padding: none;
+    text-align: center;
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #555;
+    line-height: 1.4;
+}
