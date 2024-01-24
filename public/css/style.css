@@ -1,6 +1,6 @@
 body {
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0;
+    padding: 0;
 }
 /*Login*/
 .login-body {
@@ -312,48 +312,60 @@ button:hover {
     border-top: 1px solid #000;
 }
 
-/*Navbar*/
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    text-align: center; /* Center the text within the ul */
-}
-.nav {
-    background-color: #333;
-    padding: 15px;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
-
-li {
-    display: inline-block; /* Display li elements in a line */
-}
-
-li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover:not(.active) {
-    background-color: #111;
-}
-
-.active {
-    background-color: #04aa6d;
-}
+/* Navbar */
 
 /* Float the first three links to the left */
 li:nth-child(-n + 3) {
     float: left;
 }
-.logo {
-    padding-right: 20%;
+.nav-title {
+    padding-left: 30%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #111;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    /* background-color: #4caf50; */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #232323;
+    color: white;
+    height: 200px;
+}
+.footer-p {
+    display: inline-block;
+    padding-top: 155px;
+}
+.footer-logo {
 }
 
 /* Home Page */

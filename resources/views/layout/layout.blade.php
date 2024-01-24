@@ -9,7 +9,7 @@
 
 </head>
 <body>
-    <header>
+    {{-- <header>
         <nav>
             <ul class="nav__links">
                 <li><a href="#">Anniversary</a></li>
@@ -19,11 +19,26 @@
                 <li style="float: right;"><a href="#">Dashboard</a></li>   
             </ul>
         </nav>
-    </header>
+    </header> --}}
+
+    <ul>
+        <li><a href="#">Anniversary</a></li>
+        <li><a href="#">Essential</a></li>
+        <li><a href="#">Custom</a></li>   
+        <li style="font-size: 25px" class="nav-title"><a href="#">NOT SO ORDINARY</a></li>   
+        <li style="float: right;"><a href="#">Dashboard</a></li> 
+      </ul>
    
     <div>
         <!-- Page content here -->
         @yield('section')
     </div>
+
+    <footer>
+       
+        <img class="footer-logo" src="/images/footer-logo.png" alt="">
+         <p class="footer-p">	&#169;Copyright 2023 Not So Ordinary. All rights reserved.   <a href="">   Terms And Condition</a></p>
+        <div></div>
+      </footer>
 </body>
 </html>
