@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Login</title>
   </head>
-  <body class="login-body">
+  <body class="BodyLogin">
     <div class="half login-imageHolder"></div>
 
     <div class="divider"></div>
@@ -16,7 +16,7 @@
           <h2>NOT SO ORDINARY</h2>
         </div>
 
-        <div class="container">
+        <div class="container containerlogin">
           <label for="uname"><b>Username</b></label>
           <input
             type="text"
@@ -34,7 +34,7 @@
           />
 
           <div class="buttonHolder">
-            <button type="submit">Login</button>
+            <button type="submit" class="btnlogin">Login</button>
           </div>
 
           <div class="toSignUp">

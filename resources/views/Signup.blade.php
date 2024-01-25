@@ -1,4 +1,3 @@
-
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -6,7 +5,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Sign Up</title>
   </head>
-  <body class="signup-body">
+  <body class="BodySignup">
     <div class="half login-imageHolder"></div>
 
     <div class="divider"></div>
