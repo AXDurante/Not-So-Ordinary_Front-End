@@ -32,3 +32,8 @@ Route::get('/Signup2', function () {
 Route::get('/Signup', function () {
     return view('Signup');
 });
+
+Route::get('/TermsC', function () {
+    return view('TermsC');
+});
+
