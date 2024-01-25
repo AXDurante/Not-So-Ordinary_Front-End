@@ -7,7 +7,8 @@ body {
 
 .BodyLogin,
 .BodySignup,
-.BodySignup2 {
+.BodySignup2,
+.TermsAndCondition {
     margin: 0;
     padding: 0;
     display: flex;
@@ -315,4 +316,69 @@ footer {
 .card p {
     color: #555;
     line-height: 1.4;
+}
+/*Terms and Condition*/
+.tccard {
+    border-radius: 20px;
+    border: 1px solid #000;
+    background-color: #ededed;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 34px 16px 28.5px;
+    margin: 20px 100px 15px; /* Adjust margin-top to move it down by 30px */
+}
+
+.div-2 {
+    justify-content: center;
+    color: #000;
+    align-self: center;
+    white-space: nowrap;
+    margin-top: 30px;
+    font: 700 30px Inter, sans-serif;
+}
+
+.div-5 {
+    justify-content: center;
+    color: #000;
+    letter-spacing: 0.72px;
+    align-self: auto;
+    margin-top: 30px;
+    font: 100 1em Karla, sans-serif;
+}
+
+.div-7 {
+    margin-top: 30px; /* Adjust margin-top to resize content */
+    justify-content: center;
+    color: #000;
+    letter-spacing: 0.72px;
+    align-self: stretch;
+    flex-grow: 1;
+    flex-basis: auto;
+    font: 500 24px Karla, sans-serif;
+}
+
+.div-8 {
+    color: #fff;
+    text-align: center;
+    border: 1px solid rgba(236, 27, 27, 0);
+    background-color: #1a1a1a;
+    align-self: center;
+    margin-top: 45px;
+    width: 200px; /* Fixed width */
+    height: 50px; /* Fixed height */
+    justify-content: center;
+    align-items: center;
+    padding: 10px; /* Adjust padding as needed */
+    font: 600 1.5em Montserrat, sans-serif;
+    cursor: pointer;
+}
+
+.checkbox-container label {
+    font-size: 16px;
+    font-style: normal;
+}
+
+.checkbox-container input[type="checkbox"] {
+    margin-right: 8px;
+    transform: scale(1.5);
 }
