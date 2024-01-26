@@ -10,6 +10,7 @@
 </head>
 <body>
     {{-- <header>
+       
         <nav>
             <ul class="nav__links">
                 <li><a href="#">Anniversary</a></li>
@@ -25,7 +26,7 @@
         <li><a href="#">Anniversary</a></li>
         <li><a href="#">Essential</a></li>
         <li><a href="#">Custom</a></li>   
-        <li style="font-size: 25px" class="nav-title"><a href="#" style="font-weight: bold">NOT SO ORDINARY</a></li>   
+        <li style="font-size: 25px;" class="nav-title" ><a href="#" style="font-weight: bold">NOT SO ORDINARY</a></li>   
         <li style="float: right;"><a href="#">Dashboard</a></li> 
       </ul>
    
