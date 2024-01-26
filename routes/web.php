@@ -44,3 +44,7 @@ Route::get('/changeProfile', function () {
 Route::get('/ForgotPassword', function () {
     return view('ForgotPassword');
 });
+
+Route::get('/ForgotChangePassword', function () {
+    return view('ForgotChangePassword');
+});
