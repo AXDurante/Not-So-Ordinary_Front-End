@@ -40,3 +40,7 @@ Route::get('/TermsC', function () {
 Route::get('/changeProfile', function () {
     return view('changeProfile');
 });
+
+Route::get('/ForgotPassword', function () {
+    return view('ForgotPassword');
+});
