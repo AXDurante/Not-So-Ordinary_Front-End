@@ -382,3 +382,213 @@ footer {
     margin-right: 8px;
     transform: scale(1.5);
 }
+/* Change Profile*/
+
+.cpContent {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imgUsericon {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 0 25px;
+}
+@media (max-width: 991px) {
+    .imgUsericon {
+        max-width: 100%;
+        margin-right: 10px;
+        flex-wrap: wrap;
+    }
+}
+.img {
+    aspect-ratio: 3.04;
+    object-fit: contain;
+    object-position: center;
+    width: 523px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 120px;
+    max-width: 100%;
+}
+@media (max-width: 991px) {
+    .img {
+        margin-top: 40px;
+    }
+}
+.cpHeader {
+    color: #000;
+    letter-spacing: 2.1px;
+    margin-top: 7px;
+    white-space: nowrap;
+    font: 700 20px Inter, sans-serif;
+}
+@media (max-width: 991px) {
+    .cpHeader {
+        white-space: initial;
+    }
+}
+.cpName {
+    margin-top: 20px;
+}
+input[type="text"],
+select {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font: 400 15px Inter, sans-serif;
+}
+.div-4 {
+    color: #000;
+    letter-spacing: 2.1px;
+    margin-top: 31px;
+    font: 400 30px Inter, sans-serif;
+}
+.cpDeets {
+    color: #000;
+    letter-spacing: 2.1px;
+    margin-top: 51px;
+    white-space: nowrap;
+    font: 700 30px Inter, sans-serif;
+}
+@media (max-width: 991px) {
+    .cpDeets {
+        margin-top: 40px;
+        white-space: initial;
+    }
+}
+.cpEmail {
+    color: #000;
+    letter-spacing: 1.4px;
+    border: 1px solid #1f1f1f;
+    background-color: #fff;
+    margin-top: 18px;
+    width: 570px;
+    max-width: 100%;
+    align-items: start;
+    padding: 24px 60px 14px 43px;
+    font: 500 20px Inter, sans-serif;
+}
+@media (max-width: 991px) {
+    .cpEmail {
+        padding: 0 20px;
+    }
+}
+.cpAdd {
+    background-color: #fff;
+    display: flex;
+    margin-top: 36px;
+    width: 570px;
+    max-width: 100%;
+    align-items: start;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 13px 21px 13px 43px;
+}
+@media (max-width: 991px) {
+    .cpAdd {
+        flex-wrap: wrap;
+        padding: 0 20px;
+    }
+}
+.wrapperAdd {
+    width: 40%;
+    max-width: 100%;
+    position: relative;
+}
+.wrapperAdd input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font: 400 15px Inter, sans-serif;
+}
+.wrapperAdd #editButton {
+    position: absolute;
+    background-color: transparent;
+    height: 10%;
+    right: 7px;
+    top: 10%;
+}
+
+.cpAddDeets {
+    color: #000;
+    letter-spacing: 1.4px;
+    margin-top: 13px;
+    flex-grow: 1;
+    flex-basis: auto;
+    font: 500 20px Inter, sans-serif;
+}
+.img-2 {
+    aspect-ratio: 1;
+    position: absolute;
+    width: 28px;
+    overflow: hidden;
+    max-width: 100%;
+}
+.cpNum {
+    border: 1px solid #1f1f1f;
+    background-color: #fff;
+    display: flex;
+    margin-top: 36px;
+    width: 570px;
+    max-width: 100%;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 15px 21px 15px 39px;
+}
+@media (max-width: 991px) {
+    .cpNum {
+        flex-wrap: wrap;
+        padding: 0 20px;
+    }
+}
+.cpNumDeets {
+    color: #000;
+    letter-spacing: 1.4px;
+    flex-grow: 1;
+    flex-basis: auto;
+    font: 500 20px Inter, sans-serif;
+}
+.img-3 {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 28px;
+    overflow: hidden;
+    max-width: 100%;
+}
+.cpChangePass {
+    color: #fff;
+    letter-spacing: 1.4px;
+    text-decoration-line: underline;
+    white-space: nowrap;
+    border: 1px solid #0e0c0c;
+    background-color: #373737;
+    margin-top: 41px;
+    width: 570px;
+    max-width: 100%;
+    justify-content: center;
+    align-items: start;
+    padding: 19px 60px 19px 39px;
+    font: 500 20px Inter, sans-serif;
+}
+@media (max-width: 991px) {
+    .cpChangePass {
+        white-space: initial;
+        margin-top: 40px;
+        padding: 0 20px;
+    }
+}

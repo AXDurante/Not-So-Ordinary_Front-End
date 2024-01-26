@@ -37,3 +37,6 @@ Route::get('/TermsC', function () {
     return view('TermsC');
 });
 
+Route::get('/changeProfile', function () {
+    return view('changeProfile');
+});
