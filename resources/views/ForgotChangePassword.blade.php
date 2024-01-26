@@ -10,7 +10,7 @@
 <body class="BodyLogin">
     <div class="half login-credentialsHolderCP">
         <!-- image.... -->
-        <img src="nsoLogo.png" alt="NSO logo" class="nsoLogo">
+        <img src="/images/nsoLogo.png" alt="NSO logo" class="nsoLogo">
 
         <form id="form2" class="form2" action="" method="post">
 
