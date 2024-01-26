@@ -389,12 +389,13 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: -5%;
 }
 .imgUsericon {
     align-self: stretch;
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: center;
     gap: 20px;
     margin: 0 25px;
 }
@@ -466,17 +467,21 @@ select {
         white-space: initial;
     }
 }
-.cpEmail {
-    color: #000;
-    letter-spacing: 1.4px;
-    border: 1px solid #1f1f1f;
-    background-color: #fff;
-    margin-top: 18px;
-    width: 570px;
+.wrapperEmail {
+    width: 40%;
     max-width: 100%;
-    align-items: start;
-    padding: 24px 60px 14px 43px;
-    font: 500 20px Inter, sans-serif;
+    position: relative;
+}
+
+.wrapperEmail input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font: 400 15px Inter, sans-serif;
 }
 @media (max-width: 991px) {
     .cpEmail {
@@ -515,14 +520,19 @@ select {
     box-sizing: border-box;
     font: 400 15px Inter, sans-serif;
 }
-.wrapperAdd #editButton {
+.wrapperAdd .editButton {
     position: absolute;
     background-color: transparent;
     height: 10%;
     right: 7px;
-    top: 10%;
+    top: 7%;
 }
-
+.wrapperAdd .cpChangePass {
+    border-radius: 2px;
+    max-width: 100%;
+    width: 100%;
+    text-align: start;
+}
 .cpAddDeets {
     color: #000;
     letter-spacing: 1.4px;
@@ -578,13 +588,15 @@ select {
     border: 1px solid #0e0c0c;
     background-color: #373737;
     margin-top: 41px;
-    width: 570px;
     max-width: 100%;
     justify-content: center;
     align-items: start;
     padding: 19px 60px 19px 39px;
-    font: 500 20px Inter, sans-serif;
+    font: 300 15px Inter, sans-serif;
+    margin-bottom: 50px;
+    cursor: pointer;
 }
+
 @media (max-width: 991px) {
     .cpChangePass {
         white-space: initial;
