@@ -8,7 +8,8 @@ body {
 
 .BodyLogin,
 .BodySignup,
-.BodySignup2 {
+.BodySignup2,
+.TermsandCondition {
     margin: 0;
     padding: 0;
     display: flex;
