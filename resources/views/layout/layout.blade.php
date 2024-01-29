@@ -1,45 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link rel="stylesheet" href="css/style.css">
     <title>NSO</title>
-
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
 </head>
+
 <body>
-    {{-- <header>
-       
-        <nav>
-            <ul class="nav__links">
+
+
+    <nav class="navbar">
+        <ul class="row">
+            <div class="nav-links row">
                 <li><a href="#">Anniversary</a></li>
                 <li><a href="#">Essential</a></li>
-                <li><a href="#">Custom</a></li>   
-                <li style="font-size: 25px" class="logo"><a href="#">NOT SO ORDINARY</a></li>   
-                <li style="float: right;"><a href="#">Dashboard</a></li>   
-            </ul>
-        </nav>
-    </header> --}}
+                <li><a href="#">Custom</a></li>
+            </div>
+            <li class="store-title" style="font-size: 25px" class="logo"><a href="#">NOT SO ORDINARY</a></li>
+            <div class="dashboard-user row">
+                <li style="float: right;"><a href="#">Dashboard</a></li>
+                <lord-icon src="https://cdn.lordicon.com/kthelypq.json" trigger="loop" delay="500" style="width:50px;height:50px">
+                </lord-icon>
+            </div>
+        </ul>
+    </nav>
 
-    <ul>
-        <li><a href="#">Anniversary</a></li>
-        <li><a href="#">Essential</a></li>
-        <li><a href="#">Custom</a></li>   
-        <li style="font-size: 25px;" class="nav-title" ><a href="#" style="font-weight: bold">NOT SO ORDINARY</a></li>   
-        <li style="float: right;"><a href="#">Dashboard</a></li> 
-      </ul>
-   
+
     <div>
         <!-- Page content here -->
         @yield('section')
     </div>
 
     <footer>
-       
+
         <img class="footer-logo" src="/images/footer-logo.png" alt="">
-         <p class="footer-p">	&#169;Copyright 2023 Not So Ordinary. All rights reserved.   <a href="">   Terms And Condition</a></p>
+        <p class="footer-p"> &#169;Copyright 2023 Not So Ordinary. All rights reserved. <a href=""> Terms And Condition</a></p>
         <div></div>
-      </footer>
+    </footer>
 </body>
+
 </html>
