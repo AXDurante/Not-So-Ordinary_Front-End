@@ -4,9 +4,14 @@ footer {
         justify-content: space-between;
     }
     .footer-nav {
-        align-items: center;
+        display: flex;
+        justify-content: space-between;
         .footer-links {
             float: right;
+
+            a {
+                text-decoration: none;
+            }
         }
     }
 }
