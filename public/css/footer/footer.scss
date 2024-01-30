@@ -1,0 +1,12 @@
+footer {
+    color: black;
+    .footer-links {
+        justify-content: space-between;
+    }
+    .footer-nav {
+        align-items: center;
+        .footer-links {
+            float: right;
+        }
+    }
+}

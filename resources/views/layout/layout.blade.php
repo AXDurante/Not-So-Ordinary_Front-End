@@ -36,10 +36,24 @@
     </div>
 
     <footer>
-
+<div class="footer-nav row">
+    <div class="footer-img row">
         <img class="footer-logo" src="/images/footer-logo.png" alt="">
-        <p class="footer-p"> &#169;Copyright 2023 Not So Ordinary. All rights reserved. <a href=""> Terms And Condition</a></p>
-        <div></div>
+    </div>
+    
+    <div class="footer-links row">
+        <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Shopee</a></li>
+        </ul> 
+    </div>
+   
+</div>
+        
+       
+        <div> <p class="footer-p"> &#169;Copyright 2023 Not So Ordinary. All rights reserved. <a href=""> Terms And Condition</a></p></div>
+       
     </footer>
 </body>
 
